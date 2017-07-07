@@ -2,7 +2,6 @@ import numpy as np
 		
 
 class Curiosity:
-	# This is Curiosity based Reinforcement Learning. NOPE, it was though...
 	
 	def __init__(self, resolution, g_coord, use_state_reward = False, start_prob = 1., decay = 0.8, P_0 = 0.2, gamma = 0.95, Q_thr = 10**(-4), random_act = False, returnIfFail = False):
 		self.resolution  = resolution
