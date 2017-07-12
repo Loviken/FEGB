@@ -162,7 +162,9 @@ class Arm(Parent):
 		self.angleStart = copy.deepcopy(self.angles)
 		self.angleGoal 	= np.zeros(dof)	# start by unfolding
 		
-		if False: #True: # random start
+		if random_start:
+			print('Seeking legal first posture...')
+			
 			if d_start == None:
 					
 				while True:
