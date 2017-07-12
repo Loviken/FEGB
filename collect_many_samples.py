@@ -12,7 +12,7 @@ import Statistics
 # CONSTANTS
 #   Meta
 iterations   = 50000
-seed         = 0		# 12 happens to be good for random start
+seed         = 0
 n_runs		 = 1		# How many samples to collect
 
 # Environment
