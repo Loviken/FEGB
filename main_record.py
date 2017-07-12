@@ -17,7 +17,7 @@ import Graphics
 # CONSTANTS
 #   Meta
 iterations   = 10000
-seed         = 5 #12	# This happens to be good for random start
+seed         = 5
 
 #  Statistiscs
 '''
