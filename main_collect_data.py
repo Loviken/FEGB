@@ -12,7 +12,7 @@ import Statistics
 # CONSTANTS
 #   Meta
 iterations   = 10000
-seed         = 0		# 12 happens to be good for random start
+seed         = 0
 
 # Environment
 dof 		 = 50
