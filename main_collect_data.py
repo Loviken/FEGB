@@ -15,12 +15,12 @@ iterations   = 10000
 seed         = 0
 
 # Environment
-dof 		 = 50
-armLength 	 = 1.5			# Arm is in middle, side is 1
-nSteps 		 = 50			# how many steps to take each transition
+dof 		 = 100
+armLength 	 = 1.0			# Arm is in middle, side is 1
+nSteps 		 = 100			# how many steps to take each transition
 resolution   = 6			# make nxn grid
 imd_res      = resolution	# Another resolution for intermediary?
-wall_setting = -1
+wall_setting = 8
 random_start = False
 
 # Intermediary
