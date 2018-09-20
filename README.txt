@@ -13,7 +13,7 @@ From paper:
 	2.3.  Enter the IP address into a browser.
 	2.4.  Username and Password is "nao" by default.
 	2.5.  Remove ethernet cable and press the chest button again for the new IP address.
-	2.6.  Go to the webpage for the new IP address and remove the ethernet cable.
+	2.6.  Go to the webpage of the new IP address and remove the ethernet cable.
 	2.7.  Connect the robot to the same wifi network as the computer.
 	2.8.  Disable "Alive by default"
 	2.9.  Disable "Fall manager", see: 
