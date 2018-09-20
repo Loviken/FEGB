@@ -1,0 +1,7 @@
+matplotlib==2.2.3
+numpy==1.15.1
+pygame==1.9.4
+qi==1.6.1
+scikit-learn==0.19.2
+sklearn==0.0
+tqdm==4.26.0
