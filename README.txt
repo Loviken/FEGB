@@ -28,10 +28,10 @@ From paper:
 	
 4. Run "main.py".
 	- The robot will be relaxed for 10 seconds before starting, to allow manual positioning.
-	- To make the robot attempt to reach a specific state, left-click on it.
+	- To make the robot attempt to reach a specific state, left-click on it in the graphical interface.
 	- To make the robot resume intrinsically motivated exploration, click outside the square.
 	- Be careful so the robot does not fall over to the belly as this may damage the shoulders.
-	- If you want abort learning and make the robot relax, just kill the prompt and restart,
+	- If you want to abort learning and make the robot relax, just kill the prompt and restart,
 	  and kill the prompt again once the robot relax.
 
 5. Results can be visualized with "Display results.ipynb", with "jupyter" or similar.
