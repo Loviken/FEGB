@@ -7,14 +7,14 @@ From paper:
 
 1. Make sure you have dependencies found in "requirements.txt"
 
-2. Configurate the Nao for use
-	2.1.  Turn it on with an ethernet cable inserted
-	2.2.  Once active, press the chest button, the robot will state its IP address
-	2.3.  Enter the IP address into a browser.
-	2.4.  Username and Password is "nao" by default.
-	2.5.  Remove ethernet cable and press the chest button again for the new IP address.
-	2.6.  Go to the webpage of the new IP address and remove the ethernet cable.
-	2.7.  Connect the robot to the same wifi network as the computer.
+2. Configure Nao's wireless connection and disable Nao's reflexes
+	2.1.  Turn Nao on with an ethernet cable inserted.
+	2.2.  Once active, press the chest button; the robot will state its IP address.
+	2.3.  Access the IP address via an internet browser.
+	2.4.  Enter Username and Password ("nao" by default).
+        2.5.  Under Wifi settings, connect Nao to your Wifi
+	2.6.  Remove the ethernet cable and press the chest button again to get the new IP address on the Wifi network.
+        2.7.  Enter the new IP address via an internet browser to check that the wireless connection to Nao is working.  
 	2.8.  Disable "Alive by default"
 	2.9.  Disable "Fall manager", see: 
 		http://doc.aldebaran.com/2-1/naoqi/motion/reflexes-fall-manager.html
@@ -31,7 +31,7 @@ From paper:
 	- To make the robot attempt to reach a specific state, left-click on it in the graphical interface.
 	- To make the robot resume intrinsically motivated exploration, click outside the square.
 	- Be careful so the robot does not fall over to the belly as this may damage the shoulders.
-	- If you want to abort learning and make the robot relax, just kill the prompt and restart,
-	  and kill the prompt again once the robot relax.
+	- If you want to abort learning and make the robot relax, just kill the prompt, restart the program,
+	  and kill it during the initial 10s during which the Nao relaxes.
 
 5. Results can be visualized with "Display results.ipynb", with "jupyter" or similar.
