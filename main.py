@@ -28,7 +28,7 @@ iterations   = 200
 nStates 	 = 9
 n_hood_rad	 = 1	# 1: only nearest neighbors as goals, 2: allow nighbors of neighbors,...
 max_noise    = 2.	# How much motor babbling to allow. Value of 2 seems to work well empirically
-excludeBelly = False #True
+excludeBelly = True # False # 
 
 # Graphics
 framesize  	= 400
@@ -99,7 +99,7 @@ while epoch < iterations:
 	s_i 	  = s_space.s
 	s_last	  = s_space.s_last
 	
-	# Plot the planner's bellieved probability to immediatly reach a state
+	# Plot the planner's believed probability to immediatly reach a state
 	P_s = fegb.pln_opti.P[s_last]
 	plot_frame(gph, 0, P_s, 		f_states, f_pos, f_g, f_G, s_i, 'Iteration: ' + str(epoch))
 	# Plot the planner's state value function
